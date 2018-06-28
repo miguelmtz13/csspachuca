@@ -1,0 +1,13 @@
+form, div #Location,
+div #distance{
+  padding: 5px;
+}
+
+div#map{
+  margin:5px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  float: right;
+
+}
