@@ -23,3 +23,19 @@ clear: right;
 .a{
 	background-color: white;
 }
+table{
+	margin-left: 20%;
+	margin-right: 20%;
+	border: thin solid;
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+td,th{
+	border: thin dotted;
+	padding: 8%;
+
+}
+caption{
+	font-style: italic;
+	padding: 8%;
+}
