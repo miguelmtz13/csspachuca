@@ -24,18 +24,18 @@ clear: right;
 	background-color: white;
 }
 table{
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: auto;
+	margin-right: auto;
 	border: thin solid;
 	caption-side: bottom;
 	border-collapse: collapse;
 }
 td,th{
 	border: thin dotted;
-	padding: 8%;
+	padding: 8px;
 
 }
 caption{
 	font-style: italic;
-	padding: 8%;
+	padding: 8px;
 }
