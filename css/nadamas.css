@@ -17,6 +17,7 @@ clear: right;
 #nadamas2{
 	background-color: white;
 	padding: 30px;
+	overflow-x: auto;
 }
 .a{
 	background-color: white;
@@ -24,12 +25,13 @@ clear: right;
 
 
 table{
-	
+	margin-left: auto;
+	margin-right: auto;
 	border: solid;
 	caption-side: bottom;
 	border-collapse: collapse;
-	overflow-x: auto;
-	display: block;
+	
+	
 }
 td,th{
 	border: thin dotted;
@@ -40,9 +42,13 @@ caption{
 	font-style: italic;
 	padding: 8px;
 }
-tr:hover{
-	td:first-child{
+tr-hover{
+	td-first-child{
 		background:#D0D3D4; 
 		color: #D0D3D4;
 	}
 }
+td-first-child{
+		background:#D0D3D4; 
+		color: #D0D3D4;
+	}
