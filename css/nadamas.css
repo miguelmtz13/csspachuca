@@ -18,18 +18,14 @@ clear: right;
 	background-color: white;
 	padding: 30px;
 
-
-}
-.a{
-	background-color: white;
-}
-table{
+	table{
 	margin-left: auto;
 	margin-right: auto;
 	border: solid;
 	caption-side: bottom;
 	border-collapse: collapse;
 	overflow-x: auto;
+	display: block;
 }
 td,th{
 	border: thin dotted;
@@ -46,3 +42,11 @@ tr:hover{
 		color: #D0D3D4;
 	}
 }
+
+
+}
+.a{
+	background-color: white;
+}
+
+
