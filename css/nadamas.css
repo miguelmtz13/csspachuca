@@ -26,11 +26,10 @@ clear: right;
 table{
 	margin-left: auto;
 	margin-right: auto;
-	border: thin solid;
+	border: solid;
 	caption-side: bottom;
 	border-collapse: collapse;
-	display: block;
-	overflow: auto;
+	overflow-x: auto;
 }
 td,th{
 	border: thin dotted;
@@ -40,4 +39,10 @@ td,th{
 caption{
 	font-style: italic;
 	padding: 8px;
+}
+tr:hover{
+	td:first-child{
+		background:#D0D3D4; 
+		color: #D0D3D4;
+	}
 }
