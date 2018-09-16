@@ -29,6 +29,8 @@ table{
 	border: thin solid;
 	caption-side: bottom;
 	border-collapse: collapse;
+	display: block;
+	overflow: auto;
 }
 td,th{
 	border: thin dotted;
